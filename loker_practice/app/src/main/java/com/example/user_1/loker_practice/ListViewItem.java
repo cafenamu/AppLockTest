@@ -5,13 +5,13 @@ package com.example.user_1.loker_practice;
  */
 public class ListViewItem {
     private boolean selected;
-    private String  appImage;
+    private int  appImage;
     private String  appName;
 
     public void setSelected(boolean checked) {
         selected = checked;
     }
-    public void setAppImage(String aImage) {
+    public void setAppImage(int aImage) {
         appImage = aImage;
     }
     public void setAppName(String aName) {
@@ -21,7 +21,7 @@ public class ListViewItem {
     public Boolean getSelected() {
         return this.selected;
     }
-    public String getAppImage() {
+    public int getAppImage() {
         return this.appImage;
     }
     public String getAppName() {

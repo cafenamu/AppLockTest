@@ -48,13 +48,13 @@ public class AppListActivity extends AppCompatActivity {
         //adapter.addItem(ContextCompat.getDrawable(this, R.drawable.ic_assignment_ind_black_36dp),
         //        "Ind", "Assignment Ind Black 36dp") ;
 
-        adapter.addItem(true, "", "카카오톡");
-        adapter.addItem(false, "", "캐시슬라이드");
-        adapter.addItem(false, "", "캔디 카메라");
-        adapter.addItem(false, "", "클린 마스터");
-        adapter.addItem(false, "", "파일 스프레드");
-        adapter.addItem(false, "", "포토 에디터");
-        adapter.addItem(true, "", "피아노 타일2");
+        adapter.addItem(true, R.drawable.app_icon_kakao, "카카오톡");
+        adapter.addItem(false, R.drawable.app_icon_cash, "캐시슬라이드");
+        adapter.addItem(false, R.drawable.app_icon_candy, "캔디 카메라");
+        adapter.addItem(false, R.drawable.app_icon_clean, "클린 마스터");
+        adapter.addItem(false, R.drawable.app_icon_time, "타임 스프레드");
+        adapter.addItem(false, R.drawable.app_icon_editor, "포토 에디터");
+        adapter.addItem(true, R.drawable.app_icon_piano, "피아노 타일2");
 
         // 위에서 생성한 listview에 클릭 이벤트 핸들러 정의.
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {

@@ -57,7 +57,7 @@ public class ListViewAdapter extends BaseAdapter {
         //titleTextView.setText(listViewItem.getTitle());
         //descTextView.setText(listViewItem.getDesc());
         selectedRadioButton.setSelected(listViewItem.getSelected());
-        //appImageView.setImageDrawable(listViewItem.getAppName());
+        appImageView.setImageResource(listViewItem.getAppImage());
         appTextView.setText(listViewItem.getAppName());
 
         return convertView;
@@ -88,7 +88,7 @@ public class ListViewAdapter extends BaseAdapter {
     }
     */
 
-    public void addItem(boolean aSelected, String aAppImage, String aAppName) {
+    public void addItem(boolean aSelected, int aAppImage, String aAppName) {
         ListViewItem item = new ListViewItem();
 
         item.setSelected(aSelected);
