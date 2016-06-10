@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="60px"
+        android:layout_marginLeft="30px"
         android:checked="false" />
 
     <ImageView
@@ -26,6 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
+        android:textSize="20dp"
         android:layout_marginLeft="30px"
         android:text="app name"
         android:layout_toRightOf="@id/imageitem"
