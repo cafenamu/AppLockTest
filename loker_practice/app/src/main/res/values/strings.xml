@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Loker_practice</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_lock">앱별 잠금</string>
+    <string name="app_reserve">예약 잠금</string>
+    <string name="title_activity_app_lock">앱별 잠금</string>
+    <string name="title_activity_app_reserve">예약 잠금</string>
+    <string name="title_activity_app_list">앱 고르기</string>
+</resources>

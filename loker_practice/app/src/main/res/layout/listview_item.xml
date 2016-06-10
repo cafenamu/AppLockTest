@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="128px">
+
+    <RadioButton
+        android:id="@+id/btnradio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60px"
+        android:checked="false" />
+
+    <ImageView
+        android:id="@+id/imageitem"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30px"
+        android:layout_toRightOf="@id/btnradio"
+        />
+
+    <TextView
+        android:id="@+id/textitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30px"
+        android:text="app name"
+        android:layout_toRightOf="@id/imageitem"
+        />
+</RelativeLayout>
