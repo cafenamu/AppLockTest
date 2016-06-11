@@ -6,10 +6,13 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageButton;
 
 
 public class AppReserveActivity extends AppCompatActivity {
+    ImageButton btnselect;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +21,7 @@ public class AppReserveActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
+        btnselect = (ImageButton) findViewById(R.id.btnselect);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,11 +32,22 @@ public class AppReserveActivity extends AppCompatActivity {
         });
 
     }
+    /*public boolean onTouchEvent(MotionEvent event){
+        if(event.getAction()==MotionEvent.ACTION_DOWN){
+
+            btnselect.setImageResource(R.drawable.btn_select_2);
+            //btnselect.setImageDrawable(R.drawable.btn_select_2);
+        }
+        return false;
+    }*/
+
     public void selectOnClick(View v) {
         // move to reserve_select
+        //SetTouchHandler(v);
         Intent intentSubActivity=new Intent(AppReserveActivity.this, AppListActivity.class);
         startActivity(intentSubActivity);
     }
+
     public void changeOnClick(View v) {
         // move to reserve_change
         //Intent intentSubActivity=new Intent(AppReserveActivity.this,AppListActivity.class);
