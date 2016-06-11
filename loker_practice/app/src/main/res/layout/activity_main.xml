@@ -52,23 +52,29 @@
             android:id="@+id/btnapp"
             android:layout_width="260px"
             android:layout_height="280px"
-            android:src="@drawable/btn_app"
+
             android:scaleType="fitXY"
-            android:background="@null"
+            android:background="@drawable/button_test"
             android:layout_alignParentTop="true"
             android:layout_alignLeft="@+id/btnreserve"
             android:layout_alignStart="@+id/btnreserve"
             android:layout_marginTop="159dp"
             android:onClick="appOnClick"
             />
+        <!--
+        android:background="@null"
+
+        android:src="@drawable/btn_app"
+        android:src="@drawable/btn_reserve"
+        -->
 
         <ImageButton
             android:id="@+id/btnreserve"
             android:layout_width="260px"
             android:layout_height="280px"
-            android:src="@drawable/btn_reserve"
+
             android:scaleType="fitXY"
-            android:background="@null"
+            android:background="@drawable/button_test"
             android:layout_below="@+id/btnapp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="61dp"
