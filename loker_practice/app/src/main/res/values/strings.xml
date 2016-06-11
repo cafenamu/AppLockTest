@@ -6,4 +6,5 @@
     <string name="title_activity_app_lock">앱별 잠금</string>
     <string name="title_activity_app_reserve">예약 잠금</string>
     <string name="title_activity_app_list">앱 고르기</string>
+    <string name="title_activity_reserve_select_setting">ReserveSelectSettingActivity</string>
 </resources>

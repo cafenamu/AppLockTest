@@ -29,6 +29,10 @@
         <activity
             android:name=".AppListActivity"
             android:label="@string/title_activity_app_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReserveSelectSettingActivity"
+            android:label="@string/title_activity_reserve_select_setting"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
