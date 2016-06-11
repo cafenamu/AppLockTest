@@ -49,7 +49,8 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="60px"
             android:background="#9798cb"
-            android:text="확인"/>
+            android:text="확인"
+            android:onClick="onButtonClicked"/>
     </RelativeLayout>
 
 

@@ -1,5 +1,6 @@
 package com.example.user_1.loker_practice;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -72,5 +73,9 @@ public class AppListActivity extends AppCompatActivity {
         }) ;
     }
 
-
+    public void onButtonClicked(View v)
+    {
+        Intent intentSubActivity=new Intent(AppListActivity.this, ReserveSelectSettingActivity.class);
+        startActivity(intentSubActivity);
+    }
 }
